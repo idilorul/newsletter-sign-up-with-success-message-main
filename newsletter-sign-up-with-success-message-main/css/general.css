@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.class {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1.8rem;
+}
+
+.screen__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icon {
+  width: 1.5rem;
+}
+
+.input {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.email__line {
+  display: flex;
+  gap: 7rem;
+}
+
+.input__three {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+}
